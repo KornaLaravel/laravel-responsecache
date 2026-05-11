@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-responsecache` will be documented in this file.
 
+## 8.4.0 - 2026-05-11
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 3.0.0 to 3.1.0 by @dependabot[bot] in https://github.com/spatie/laravel-responsecache/pull/519
+* Treat null cache value as a miss to fix has/get race by @mattiasgeniar in https://github.com/spatie/laravel-responsecache/pull/520
+
+### New Contributors
+
+* @mattiasgeniar made their first contribution in https://github.com/spatie/laravel-responsecache/pull/520
+
+**Full Changelog**: https://github.com/spatie/laravel-responsecache/compare/8.3.1...8.4.0
+
 ## 8.3.1 - 2026-04-15
 
 - Fix state sharing in `CacheResponse` middleware between `handle()` and `terminate()` when the middleware is not resolved as the same instance. State now travels on the request attributes. (#518)
