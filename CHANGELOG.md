@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-responsecache` will be documented in this file.
 
+## 8.4.1 - 2026-05-25
+
+### What's Changed
+
+* Fix forgetting multiple urls stopping at the first uncached url by @freekmurze in https://github.com/spatie/laravel-responsecache/pull/521
+
+**Full Changelog**: https://github.com/spatie/laravel-responsecache/compare/8.4.0...8.4.1
+
 ## 8.4.0 - 2026-05-11
 
 ### What's Changed
